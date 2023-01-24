@@ -17,10 +17,10 @@
       <label><input type="radio" name="user-age" value=2>Attendee</label><br>
       <label><input type="radio" name="user-age" value=3>Senior(older than 60)</label><br>
     </form>
-    
+
     <br>
     <form id="movie-form">
-      <p>What Movie are you purchasing a ticket for</p>
+      <p>What Movie are you purchasing a ticket for?</p>
       <select id="movie-id">
         <option>Avatar 2: Electric Boogaloo</option>
         <option>Toy Story 17</option>
@@ -30,7 +30,7 @@
     </form>
 
     <form id="showing-times-form">
-      <p>What Time</p>
+      <p>What Time?</p>
       <select id="movie-times-id">
         <option>0900-1100</option>
         <option>1130-1330</option>
@@ -43,6 +43,19 @@
     <br>
     <br>
     <button type="submit">Submit Form</button>
+
+    <h2>Ticket Amounts</h2>
+    <div id="tickets">
+    </div>
+
+    <div id="ticket-details" class="hidden">
+      <h2>Ticket Details</h2>
+      <p>Movie : <span class="movie"></span></p>
+      <p>For : <span class="showing-times"></span></p>
+      <p>Admissions type : <span class="age"></span></p>
+      <p>Cost : <span class="cost"></span></p>
+      <button class="delete" type="button">Remove From Cart</button>
+    </div>
 
 
   </div>
