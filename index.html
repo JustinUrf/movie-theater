@@ -3,6 +3,48 @@
 <head>
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <script src="js/scripts.js"></script>
-  <title>template</title>
+  <title>My Closet Cinema</title>
 </head>
+
+<body>
+  <h1>Welcome to the closet... movie theater.</h1>
+  <h2>What type of ticket do you need?</h2>
+  <!-- Div that contains choices for user. -->
+  <div>
+    <form id="age-input-form">
+      <p>Whats your age?</p>
+      <label><input type="radio" name="user-age" value=1 checked>Children(younger than 13)</label><br>
+      <label><input type="radio" name="user-age" value=2>Attendee</label><br>
+      <label><input type="radio" name="user-age" value=3>Senior(older than 60)</label><br>
+    </form>
+    
+    <br>
+    <form id="movie-form">
+      <p>What Movie are you purchasing a ticket for</p>
+      <select id="movie-id">
+        <option>Avatar 2: Electric Boogaloo</option>
+        <option>Toy Story 17</option>
+        <option>Generic Scary Movie Option</option>
+        <option>The Most Abstract Thing You've Seen</option>
+      </select>
+    </form>
+
+    <form id="showing-times-form">
+      <p>What Time</p>
+      <select id="movie-times-id">
+        <option>0900-1100</option>
+        <option>1130-1330</option>
+        <option>1400-1600</option>
+        <option>1630-1830</option>
+        <option>1900-2100</option>
+        <option>2130-2330</option>
+      </select>
+    </form>
+    <br>
+    <br>
+    <button type="submit">Submit Form</button>
+
+
+  </div>
+</body>
 </html>
