@@ -119,12 +119,18 @@ function displayTicketDetails(event) {
   document.querySelector(".showing-times").innerText = ticket.showingTimes;
   document.querySelector(".age").innerText = ticket.age;
   document.querySelector(".price").innerText = ticket.price
-  document.querySelector("div#ticket-details").removeAttribute("class")
+  document.querySelector("div#ticket-details").removeAttribute("class");
+};
 
-}
-
+function handleDelete(event) {
+  ticketBooth.deleteTicket(event.target.id);
+  document.querySelector("button.delete").removeAttribute("id");
+  document.querySelector("div#ticket-details").setAttribute("class", "hidden");
+  listTickets(ticketBooth);
+};
 
 window.addEventListener("load", function() {
   document.querySelector("form#showing-times-form").addEventListener("submit", handleFormSubmission);
   document.querySelector("div#ticket-stub").addEventListener("click", displayTicketDetails);
+  document.querySelector("button.delete").addEventListener("click", handleDelete);
 });

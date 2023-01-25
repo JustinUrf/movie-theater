@@ -1,37 +1,32 @@
-# {Application Name}
+# Movie Theater Ticket Booth
 
-#### By {List of contributors}
+#### By Justin Lee, David Jandron
 
-#### {Brief description of application}
+#### Movie theater kiosk that allows users to select movie tickets and view their carts to delete different tickets.
 
 ## Technologies Used
 
-* List all
-* the major technologies
-* you used in your project
-* here
+* Javacsript
+* CSS
+* Html
 
 ## Description
 
-{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}
+Movie theater kiosk that uses branching logic to determine the price of someones movie tickets. Furthermore, uses constructors and arrays to store user ticket details into an array. This array is then looped through using object keys to display ticket information. Users can also click on specific tickets to see ticket info.
 
 ## Setup/Installation Requirements
 
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}
+* Push repository to your computer through gitbash or download repository through github.
+* Select different information on website to see different movies and their ticket prices.
+* Click on individual tickets in cart to see additional ticket information.
+* To see any source code use any source code editor such as VSCode.
 
 ## Known Bugs
 
-* Any known issues
-* should go here
+* Delete function for tickets does not work.
 
 ## License
 
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+MIT
 
-Copyright (c) date author name(s)
+Copyright (c) Justin Lee, David Jandron
