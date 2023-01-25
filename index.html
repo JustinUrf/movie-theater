@@ -13,9 +13,9 @@
   <div>
     <form id="age-input-form">
       <p>Whats your age?</p>
-      <label><input type="radio" name="user-age" value=1 checked>Children(younger than 13)</label><br>
-      <label><input type="radio" name="user-age" value=2>Attendee</label><br>
-      <label><input type="radio" name="user-age" value=3>Senior(older than 60)</label><br>
+      <label><input type="radio" name="user-age" value="children" checked>Children(younger than 13)</label><br>
+      <label><input type="radio" name="user-age" value="attendee"=>Attendee</label><br>
+      <label><input type="radio" name="user-age" value="senior">Senior(older than 60)</label><br>
     </form>
 
     <br>
@@ -32,20 +32,17 @@
     <form id="showing-times-form">
       <p>What Time?</p>
       <select id="movie-times-id">
-        <option>0900-1100</option>
-        <option>1130-1330</option>
-        <option>1400-1600</option>
-        <option>1630-1830</option>
-        <option>1900-2100</option>
-        <option>2130-2330</option>
+        <option>0700-0900</option>
+        <option>1200-1400</option>
+        <option>1700-1900</option>
       </select>
+      <br>
+      <br>
+      <button type="submit">Submit Form</button>
     </form>
-    <br>
-    <br>
-    <button type="submit">Submit Form</button>
 
     <h2>Ticket Amounts</h2>
-    <div id="tickets">
+    <div id="ticket-stub">
     </div>
 
     <div id="ticket-details" class="hidden">
@@ -53,7 +50,7 @@
       <p>Movie : <span class="movie"></span></p>
       <p>For : <span class="showing-times"></span></p>
       <p>Admissions type : <span class="age"></span></p>
-      <p>Cost : <span class="cost"></span></p>
+      <p>Cost : <span class="price"></span></p>
       <button class="delete" type="button">Remove From Cart</button>
     </div>
   </div>

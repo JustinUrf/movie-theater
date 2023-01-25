@@ -6,19 +6,19 @@ Start by completing your business logic, and then move onto your user interface 
 
 html
 >
-forms for users to input movie type (opening day, 2 weeks, movies about to come out of rotation)
-form for users to input age type (children 11 < , adults 11+, seniors 60+)
-div that displays movie ticket prices (js logic)
+forms for users to input movie type (opening day, 2 weeks, movies about to come out of rotation)x 
+form for users to input age type (children 11 < , adults 11+, seniors 60+)x 
+div that displays movie ticket prices (js logic)x 
 
 css
 >
-hidden class that does not display its contents until js logic removes hidden
+hidden class that does not display its contents until js logic removes hiddenx 
 
 js
 >
-1 constructor function that creates new tickets?
--ticket types
--time of day, age, movie release type
+1 constructor function that creates new tickets?x 
+-ticket typesx 
+-time of day, age, movie release typex 
 submit form that handles user input submissions
 function that gathers user input
 function that displays user result for pricing
